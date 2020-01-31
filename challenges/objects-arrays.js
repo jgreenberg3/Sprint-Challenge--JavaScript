@@ -6,25 +6,35 @@
   object name, diet, weight, length, period
 */
 
-function Dinosaur (name, diet, weight, length, period){
-  this.name = name;
-  this.diet = diet;
-  this.weight = diet;
-  this.length = length;
-  this.period = period;
-}
-
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
-var tyrann = new Dinosaur('tyrannosaurus', 'carnivorous', '7000kg', '12m', 'Late Cretaceous');
+const tyrann = {
+  name: 'tyrannosaurus',
+  diet: 'carnivorous',
+  weight: '7000kg',
+  length: '12m',
+  period: 'Late Cretaceous',
+}
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 
-var steg = new Dinosaur('stegosaurus', 'herbivorous', '2000kg', '9m', 'Late Jurassic');
+const steg = {
+  name : 'stegosaurus',
+  diet : 'herbivorous',
+  weight : '2000kg',
+  length : '9m',
+  period : 'Late Jurassic',
+}
 
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
 
-var vel = new Dinosaur('velociraptor', 'carnivorous', '15kg', '1.8m', 'Late Cretaceous');
+const vel = {
+  name : 'velociraptor',
+  diet : 'carnivorous',
+  weight : '15kg',
+  length : '1.8m',
+  period : 'Late Cretaceous',
+}
 
 // Using your dinosaur objects, log answers to these questions:
 
